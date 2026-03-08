@@ -1,8 +1,5 @@
 
-// Jahr im Footer
 (function(){const y=document.getElementById('year'); if(y) y.textContent=new Date().getFullYear();})();
-
-// Mobile Menü Toggle
 (function(){
   const btn=document.getElementById('menuToggle');
   const nav=document.querySelector('.nav-links');
@@ -17,8 +14,6 @@
     }
   });
 })();
-
-// Theme Toggle (Light/Dark) mit Persistenz
 (function(){
   const root=document.documentElement; const btn=document.getElementById('themeToggle');
   const KEY='ccj-theme'; const saved=localStorage.getItem(KEY);
@@ -32,8 +27,6 @@
     btn.setAttribute('aria-pressed', String(!isLight)); setIcon();
   });
 })();
-
-// Smooth Scroll für interne Links
 (function(){
   for(const a of document.querySelectorAll('a[href^="#"]')){
     a.addEventListener('click', e=>{

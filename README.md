@@ -33,4 +33,3 @@ assets/
 - Formuliere Inhalte in **deinen eigenen Worten**.
 - Nutze **eigene Grafiken** oder frei lizenzierte Medien mit korrekter Quellenangabe.
 - Keine Kopien aus Skripten/Folien.
-```
