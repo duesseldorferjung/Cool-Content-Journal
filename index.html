@@ -1,0 +1,117 @@
+
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cool Content Journal – Cyber Neon</title>
+  <meta name="description" content="Beispielprojekt: Cool Content Journal – responsive Lern-Showcase-Seite im Cyber‑Neon‑Look.">
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-badge" aria-hidden="true">CCJ</span>
+        <span class="brand-text">Cool Content Journal</span>
+      </a>
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="#highlights">Highlights</a>
+        <a href="#video">Video</a>
+        <a href="#about">Über</a>
+        <button id="themeToggle" class="btn icon" aria-pressed="false" title="Design umschalten (Hell/Dunkel)">🌙</button>
+      </nav>
+      <button id="menuToggle" class="btn icon" aria-expanded="false" aria-label="Menü öffnen/schließen">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h1>Cool Content Journal</h1>
+          <p class="lead">Teile die Studieninhalte, die dich wirklich begeistern – klar, kreativ, teilbar. Dieses Journal ist deine Bühne, um Kommiliton*innen, Kolleg*innen und Freund*innen zu zeigen, was du lernst.</p>
+          <div class="cta">
+            <a class="btn primary" href="#highlights">Los geht’s</a>
+            <a class="btn ghost" href="#about">Was ist das?</a>
+          </div>
+        </div>
+        <div>
+          <div class="embed" aria-label="Beispiel‑Video">
+	    <iframe src="https://app.colossyan.com/embed/afff6164-0ff7-4733-bd27-2002c1e0511f" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p class="meta center">Hinweis: Ersetze den Link durch dein eigenes Video (YouTube‑nocookie, Loom, Colossyan …).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section id="highlights" class="section alt" aria-labelledby="hl-title">
+      <div class="container">
+        <h2 id="hl-title">Highlights aus dem Studium</h2>
+        <div class="grid">
+          <article class="card glow">
+            <img src="assets/images/card1.jpg" class="media" alt="Illustration zu Entscheidungsmodellen" />
+            <div class="body">
+              <span class="chip">Aha‑Moment</span>
+              <h3>4‑Phasen‑Modell der Entscheidungsfindung</h3>
+              <p class="muted">Problem → Alternativen → Auswahl → Umsetzung</p>
+              <p>Warum cool? Es zwingt mich, Alternativen bewusst zu sammeln – das hebt die Qualität von Diskussionen sofort.</p>
+            </div>
+          </article>
+
+          <article class="card glow">
+            <img src="assets/images/card2.jpg" class="media" alt="Illustration zu SMART Zielen" />
+            <div class="body">
+              <span class="chip">Praxisnah</span>
+              <h3>SMART‑Ziele, aber wirklich smart</h3>
+              <p class="muted">Spezifisch · Messbar · Attraktiv · Realistisch · Terminiert</p>
+              <p>Mein Takeaway: „Attraktiv“ motiviert – ohne echte Motivation bleiben Ziele Theorie.</p>
+            </div>
+          </article>
+
+          <article class="card glow">
+            <img src="assets/images/card3.jpg" class="media" alt="Illustration zu Opportunity Cost" />
+            <div class="body">
+              <span class="chip">Einfach erklärt</span>
+              <h3>Opportunity Cost</h3>
+              <p class="muted">Die Kosten der verpassten Alternative – Zeit, Fokus, Optionen.</p>
+              <p>Beispiel: Wenn ich 2 Stunden lerne, investiere ich Zeit und verzichte auf anderes – diese „Kosten“ möchte ich bewusst einkalkulieren.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Sektion separat (optional) -->
+    <section id="video" class="section" aria-labelledby="video-title">
+      <div class="container">
+        <h2 id="video-title">Video‑Spotlight</h2>
+        <div class="embed">
+          <iframe src="https://www.youtube-nocookie.com/embed/oHg5SJYRHA0?rel=0" title="Zweites Demo Video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Hinweise -->
+    <section id="about" class="section alt" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title">Über dieses Journal</h2>
+        <p>Dieses Beispiel zeigt, wie du eine öffentliche Mini‑Webseite aufbauen kannst, um Studieninhalte für andere sichtbar zu machen. Der Titel ist frei wählbar – das Branding lautet hier <strong>Cool Content Journal</strong> (CCJ).</p>
+        <p class="muted">Urheberrecht beachten: Keine Kopien aus Skripten/Folien; formuliere in deinen eigenen Worten und nutze selbst erstellte Grafiken oder frei lizenzierte Medien mit korrekter Quelle.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer">
+      <span>© <span id="year"></span> Cool Content Journal</span>
+      <span class="muted">Made with ⚡ Cyber‑Neon Vibes</span>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
